@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire|neon|outline|emboss|shadow-multiple">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <style>
+            body{
+                background-color: cornflowerblue;
+                }
+            #heading{
+                color:aqua;
+                }
+             .para1{
+                color:blue;
+                }
+             .label{
+                font-size: smaller;
+                }
+             p{
+                background-color: bisque;
+                }
+             .para2{
+                background-image: url("LIC corporation_files/LIC.jpeg");
+                background-size:50px;
+                color:black;
+                }
+             div{
+                border:2px solid blanchedalmond;
+                padding:25px;
+                box-sizing:border-box;
+                width: 300px;
+                margin:auto;
+                text-align:justify;
+                }
+             p.border{
+              background-color: cornsilk;
+              border:2px dotted silver;
+              padding:5px;
+              box-sizing:border-box;
+              width:50%;
+              margin:20px auto;
+              outline-style:groove;
+              outline-color:cornflowerblue;
+              outline-width:4px;
+              outline-offset:15px;
+              white-space: nowrap;
+              }
+            h2{
+                text-align:center;
+              }
+            h3{
+                text-align:left;
+              }
+            h4{
+                text-align:right;
+              }
+            #a{
+                text-align-last:center;
+              }
+            p.emph{
+                direction:rtl;
+                unicode-bidi:bidi-override;
+                }
+            .line{
+                text-decoration:line-through overline underline;
+                text-decoration-color: aquamarine;
+                }
+            #q{
+                text-decoration-line:underline;
+                text-decoration-style: wavy;
+                text-decoration-thickness:2px;
+                }
+            .w{
+                text-decoration:underline dotted red 2px;
+                }
+            a{
+                text-decoration:none;
+                text-align:center;
+                border:ridge whitesmoke;
+                }
+            a:link{
+                color:red;
+                background-color: chartreuse;
+                }
+            a:visited{
+                color:green;
+                background-color: brown;
+                }
+            a:hover{
+                color:hotpink;
+                background-color:yellow;
+                }
+            a:active{
+                color:blue;
+                background-color:green;
+                }
+            .dt{
+                 text-transform: capitalize;
+                word-spacing:-2px;
+                }
+            .dt1{
+                text-transform:uppercase;
+                text-shadow: 2px 2px 2px red;
+                }
+            .dt2{
+                text-transform:lowercase;
+                }
+            .c2{
+                text-indent:50px;
+                }
+            .c3{
+                letter-spacing:-2px;
+                }
+            .c4{
+                line-height:1.2;
+                }
+            .name1{
+                font-variant:small-caps;
+                }
+            .name2{
+                font-variant:normal;
+                }
+            .font-size{
+                font-size:40px;
+                }
+            .font-size1{
+                font-size:2em;
+                }
+            .font-size2{
+                font-size:50%;
+                }
+            .ff{
+                font-family:sofia;
+                }
+            #font{
+                font:italic 20px/15px verdana bold;
+                }
+            .left{
+                display:inline-block;
+                }
+            .right{
+                display:inline-block;
+                 }   
+            table,tr,th{
+                /* bottom-border:2px solid black; */
+                border-collapse:collapse;
+                padding:10px;
+                }
+            tr:hover{
+                background-color: blue;
+                }
+            tr:nth-child(even){
+                background-color: aquamarine;
+                }
+            .hide{
+                display:none
+                }
+            ol{
+                counter-reset:section;
+                list-style-type:none;
+                }
+            li::before{
+                counter-increment:section;
+                content:counters(section,".")"";}
+                        
+        </style>
+    </head>
+    <body style="background-color: darkslateblue;">
+        <h1 style="background-color: darkgreen; color:blanchedalmond; border:2px dashed deeppink" id="heading">
+            GOVERNMENT OF INDIA
+        </h1>
+        <p class="para1 label">
+            INCREDIBLE INDIA
+        </p>
+        <p class= "para2"><b>unity in diversity</b></p><br>
+        <div>India is my country.All indians are my brothers and sisters. I love my country.The width of this div remains at 300px, in spite of the 50px of total left and right padding, because of the box-sizing: border-box property.</div><br>
+        <p class="border">Explanation of the different parts:<br><br>
+            Content - The content of the box, where text and images appear<br>
+            Padding - Clears an area around the content. The padding is transparent<br>
+            Border - A border that goes around the padding and content<br>
+            Margin - Clears an area outside the border. The margin is transparent
+        </p><br><br>
+        <h2>Heading 1</h2>
+        <h3>heading 2</h3>
+        <h4>Heading 4</h4>
+        <p id="a">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut</p><br>
+        <p class="emph">this is a phrase<br>ecnalubma</p>
+        <div class="line">I eat rice is past tense</div>
+        <h6 id="q">Heading</h6>
+        <p class="w">Hi</p>
+        <p>A link with no underline: <a href="https://www.w3schools.com">W3Schools.com</a></p>
+        <p class="dt">welcome home</p>
+        <p class="dt1">welcome home</p>
+        <p class="dt2">welcome home</p>
+        <p>Using text indent</p>
+        <p class="c2">In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since. 'Whenever you feel like criticizing anyone,' he told me, 'just remember that all the people in this world haven't had the advantages that you've had.'</p><br>
+        <p class="c3">Hello everyone</p>
+        <p class="c4">The climate is so hot.<br>No, its not so.</p>
+        <p class="name1">My name is Sahana</p>
+        <p class="name2">My name is sahana</p>
+        <p class="font-size">Font size with pixels</p>
+        <p class="font-size1">Font size with em</p>
+        <p class="font-size2">Font size with percent</p>
+        <p style="font-size:2vw;"> Viewport is the browser window size. 1vw = 1% of viewport width. If the viewport is 50cm wide, 1vw is 0.5cm.</p>
+        <p class="ff"> Sofia font</p>
+        <h6 class="font-effect-fire">font effect fire</h6>
+        <h6 class="font-effect-neon"> neon effect</h6>
+        <h6 class="font-effect-outline">outline effect</h6>
+        <h6 class="font-effect-emboss">emboss effect</h6>
+        <h6 class="font-effect-shadow-multiple">shadow multiple effect</h6>
+        <p id="font">The font is set to italic and bold, the font size is set to 12 pixels, the line height is set to 30 pixels, and the font family is Georgia.</p><br>
+        <p>Some Font Awesome icons:<br>
+        <i class="fas fa-cloud"></i>
+        <i class="fas fa-heart"></i></p>
+        <p>Some font icon edited:
+        <i class="fas fa-cloud" style="color:blue;font-size:20px"></i></p>
+        <p>Some font bootstrap icons:<i class="glyphicon glyphicon-thumbs-up" style="color:blue;font-weight:thick;font-size:20px"></i></p>
+        <p>google icons<i class="material-icons">traffic</i></p>
+        <p class="left">home</p>
+        <p class="right">institution</p>
+        <p>Mouse over the words to change the cursor.<br>
+        <span style="cursor:auto">auto</span><br>
+        <span style="cursor:crosshair">crosshair</span><br>
+        <span style="cursor:e-resize">e-resize</span><br>
+        <span style="cursor:help">help</span><br>
+        <span style="cursor:move">move</span><br>
+        <span style="cursor:n-resize">n-resize</span><br>
+        <span style="cursor:nw-resize">nw-resize</span><br>
+        <span style="cursor:pointer">pointer</span><br>
+        <span style="cursor:s-resize">s-resize</span><br>
+        <span style="cursor:se-resize">se-resize</span><br>
+        <span style="cursor:sw-resize">sw-resize</span><br>
+        <span style="cursor:text">text</span><br>
+        <span style="cursor:w-resize">w-resize</span><br>
+        <span style="cursor:wait">wait</span><br></p>
+        <div style="overflow-x: auto;">
+            <table>
+              <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Points</th>
+                <th>Points</th>
+                <th>Points</th>
+                <th>Points</th>
+                <th>Points</th>
+                <th>Points</th>
+                <th>Points</th>
+                <th>Points</th>
+                <th>Points</th>
+                <th>Points</th>
+              </tr>
+              <tr>
+                <td>Jill</td>
+                <td>Smith</td>
+                <td>50</td>
+                <td>50</td>
+                <td>50</td>
+                <td>50</td>
+                <td>50</td>
+                <td>50</td>
+                <td>50</td>
+                <td>50</td>
+                <td>50</td>
+                <td>50</td>
+              </tr>
+              <tr>
+                <td>Eve</td>
+                <td>Jackson</td>
+                <td>94</td>
+                <td>94</td>
+                <td>94</td>
+                <td>94</td>
+                <td>94</td>
+                <td>94</td>
+                <td>94</td>
+                <td>94</td>
+                <td>94</td>
+                <td>94</td>
+              </tr>
+              <tr>
+                <td>Adam</td>
+                <td>Johnson</td>
+                <td>67</td>
+                <td>67</td>
+                <td>67</td>
+                <td>67</td>
+                <td>67</td>
+                <td>67</td>
+                <td>67</td>
+                <td>67</td>
+                <td>67</td>
+                <td>67</td>
+              </tr>
+            </table>
+          </div>
+          <p>Hi!</p>
+          <p class="hide">eruma</p>
+          <p> welcome</p>
+          <ol>
+            <li>item
+            <li>item
+            <ol>
+              <li>item
+              <li>item
+                <ol>
+                  <li>item
+                  <li>item
+                </ol>
+            </ol>
+            <li>item
+            <li>item
+          </ol>
+
+
+    </body>
+</html>
